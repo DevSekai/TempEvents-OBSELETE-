@@ -1,3 +1,3 @@
 function sEvents(eventName, ...)
-    TriggerServerEvent("RdW:tempEvent", eventName, ...)
+    TriggerServerEvent("sEvents:tempEvent", eventName, ...)
 end
